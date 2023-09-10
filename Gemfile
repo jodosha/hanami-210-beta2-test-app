@@ -1,0 +1,37 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "hanami",     github: "hanami/hanami",     branch: "assets-2-1"
+gem "hanami-cli",     github: "hanami/cli",     branch: "assets-cli"
+gem "hanami-router", "~> 2.1.0.beta"
+gem "hanami-controller", "~> 2.1.0.beta"
+gem "hanami-validations", "~> 2.1.0.beta"
+gem "hanami-view", "~> 2.1.0.beta"
+gem "hanami-assets",     github: "hanami/assets",     branch: "main"
+gem "hanami-webconsole", "~> 2.1.0.beta"
+
+gem "dry-types", "~> 1.0", ">= 1.6.1"
+gem "puma"
+gem "rake"
+
+group :development, :test do
+  gem "dotenv"
+  gem "byebug"
+end
+
+group :cli, :development do
+  gem "hanami-reloader"
+end
+
+group :cli, :development, :test do
+  gem "hanami-rspec"
+end
+
+group :development do
+  gem "guard-puma", "~> 0.8"
+end
+
+group :test do
+  gem "rack-test"
+end
