@@ -4,11 +4,11 @@ Test app for Hanami 2.1.0.beta2 (not yet released).
 
 ## Dev mode
 
-### Foreman
+### Hanami dev
 
 ```
 $ gem install foreman
-$ foreman start
+$ bundle exec hanami dev
 ```
 
 ### Alternative

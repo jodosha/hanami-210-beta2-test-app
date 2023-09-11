@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 gem "hanami",     github: "hanami/hanami",     branch: "assets-2-1"
-gem "hanami-cli",     github: "hanami/cli",     branch: "assets-cli"
+gem "hanami-cli",     github: "hanami/cli",     branch: "main"
 gem "hanami-router", "~> 2.1.0.beta"
 gem "hanami-controller", "~> 2.1.0.beta"
 gem "hanami-validations", "~> 2.1.0.beta"

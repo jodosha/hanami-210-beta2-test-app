@@ -7,8 +7,8 @@ GIT
 
 GIT
   remote: https://github.com/hanami/cli.git
-  revision: 95789d4fe4226f38571adaa5e05a1d5212eb0499
-  branch: assets-cli
+  revision: 9fa500e42611efbc19f4524b0de4abe39cccc415
+  branch: main
   specs:
     hanami-cli (2.1.0.beta1)
       bundler (~> 2.1)
