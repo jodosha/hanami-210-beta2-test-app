@@ -1,13 +1,13 @@
 GIT
   remote: https://github.com/hanami/assets.git
-  revision: 72bcef964c7810047d6657f2c07104f363c56c09
+  revision: 9f3fd71061766d4c3465187d20bff9dac54f1e78
   branch: main
   specs:
     hanami-assets (2.1.0.alpha1)
 
 GIT
   remote: https://github.com/hanami/cli.git
-  revision: a65dd46196150f000f22094a377184581bb13fe5
+  revision: c67bdfff29aff990a7189ed266ffd22c4cf4a7f1
   branch: main
   specs:
     hanami-cli (2.1.0.beta1)
