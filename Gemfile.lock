@@ -1,13 +1,13 @@
 GIT
   remote: https://github.com/hanami/assets.git
-  revision: 1c8fc3b8132180dab9edcaad1ff213391bea6816
+  revision: 72bcef964c7810047d6657f2c07104f363c56c09
   branch: main
   specs:
     hanami-assets (2.1.0.alpha1)
 
 GIT
   remote: https://github.com/hanami/cli.git
-  revision: 9fa500e42611efbc19f4524b0de4abe39cccc415
+  revision: a65dd46196150f000f22094a377184581bb13fe5
   branch: main
   specs:
     hanami-cli (2.1.0.beta1)
@@ -20,10 +20,10 @@ GIT
 
 GIT
   remote: https://github.com/hanami/hanami.git
-  revision: cf875507719d06a83ce76ba01f5088b0f32fed2c
-  branch: assets-2-1
+  revision: f57e241386a472c59915cbf26e7ea709dbfb366e
+  branch: main
   specs:
-    hanami (2.0.3)
+    hanami (2.1.0.beta1)
       bundler (>= 1.16, < 3)
       dry-configurable (~> 1.0, < 2)
       dry-core (~> 1.0, < 2)
@@ -31,8 +31,8 @@ GIT
       dry-logger (~> 1.0, < 2)
       dry-monitor (~> 1.0, >= 1.0.1, < 2)
       dry-system (~> 1.0, < 2)
-      hanami-cli (~> 2.0)
-      hanami-utils (~> 2.0)
+      hanami-cli (~> 2.1.beta)
+      hanami-utils (~> 2.1.beta)
       zeitwerk (~> 2.6)
 
 GEM
@@ -105,7 +105,7 @@ GEM
     erubi (1.12.0)
     ffi (1.15.5)
     formatador (1.1.0)
-    guard (2.18.0)
+    guard (2.18.1)
       formatador (>= 0.2.4)
       listen (>= 2.7, < 4.0)
       lumberjack (>= 1.0.12, < 2.0)
@@ -200,7 +200,7 @@ GEM
     shellany (0.0.1)
     temple (0.10.2)
     thor (1.2.2)
-    tilt (2.2.0)
+    tilt (2.3.0)
     zeitwerk (2.6.11)
 
 PLATFORMS

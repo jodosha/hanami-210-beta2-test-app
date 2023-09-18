@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe Lyrics::Actions::Lyrics::Search do
+RSpec.describe Admin::Actions::Users::Index do
   let(:params) { Hash[] }
 
   it "works" do
