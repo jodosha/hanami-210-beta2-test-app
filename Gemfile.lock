@@ -35,6 +35,15 @@ GIT
       hanami-utils (~> 2.1.beta)
       zeitwerk (~> 2.6)
 
+GIT
+  remote: https://github.com/hanami/reloader.git
+  revision: 13886c4c209bc8b693bbe732462036797dffa316
+  branch: main
+  specs:
+    hanami-reloader (2.1.0.beta1)
+      hanami-cli (~> 2.0)
+      zeitwerk (~> 2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -125,9 +134,6 @@ GEM
       hanami-utils (~> 2.0)
       rack (~> 2.0)
       zeitwerk (~> 2.6)
-    hanami-reloader (2.0.2)
-      hanami-cli (~> 2.0)
-      zeitwerk (~> 2.6)
     hanami-router (2.1.0.beta1)
       mustermann (~> 3.0)
       mustermann-contrib (~> 3.0)
@@ -215,7 +221,7 @@ DEPENDENCIES
   hanami-assets!
   hanami-cli!
   hanami-controller (~> 2.1.0.beta)
-  hanami-reloader
+  hanami-reloader!
   hanami-router (~> 2.1.0.beta)
   hanami-rspec
   hanami-validations (~> 2.1.0.beta)

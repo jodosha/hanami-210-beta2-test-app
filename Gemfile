@@ -21,7 +21,7 @@ group :development, :test do
 end
 
 group :cli, :development do
-  gem "hanami-reloader"
+  gem "hanami-reloader", github: "hanami/reloader", branch: "main"
 end
 
 group :cli, :development, :test do
