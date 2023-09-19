@@ -1,3 +1,3 @@
-import "../stylesheets/app.css";
+import "../css/app.css";
 
 console.log("Hello, admin slice!");
