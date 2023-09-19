@@ -20,8 +20,8 @@ GIT
 
 GIT
   remote: https://github.com/hanami/hanami.git
-  revision: f57e241386a472c59915cbf26e7ea709dbfb366e
-  branch: main
+  revision: 75286633037767a7732e1f2f4587a8ca6dad09fd
+  branch: feature/serve-static-assets
   specs:
     hanami (2.1.0.beta1)
       bundler (>= 1.16, < 3)

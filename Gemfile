@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "hanami",     github: "hanami/hanami",     branch: "main"
+gem "hanami",     github: "hanami/hanami",     branch: "feature/serve-static-assets"
 gem "hanami-cli",     github: "hanami/cli",     branch: "main"
 gem "hanami-router", "~> 2.1.0.beta"
 gem "hanami-controller", "~> 2.1.0.beta"
