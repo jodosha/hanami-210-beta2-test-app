@@ -7,5 +7,6 @@ module Lyrics
     slice :admin, at: "/admin" do
       get "/users", to: "users.index"
     end
+    get "/songs", to: "songs.index"
   end
 end

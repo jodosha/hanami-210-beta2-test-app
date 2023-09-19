@@ -44,6 +44,20 @@ GIT
       hanami-cli (~> 2.0)
       zeitwerk (~> 2.6)
 
+GIT
+  remote: https://github.com/hanami/view.git
+  revision: 55321527d45694463c3b85b7e11892a8f442d147
+  branch: main
+  specs:
+    hanami-view (2.1.0.beta1)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 1.0)
+      dry-core (~> 1.0)
+      dry-inflector (~> 1.0, < 2)
+      temple (~> 0.10.0, >= 0.10.2)
+      tilt (~> 2.0, >= 2.0.6)
+      zeitwerk (~> 2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -150,14 +164,6 @@ GEM
     hanami-validations (2.1.0.beta1)
       dry-validation (>= 1.10, < 2)
       zeitwerk (~> 2.6.0)
-    hanami-view (2.1.0.beta1)
-      concurrent-ruby (~> 1.0)
-      dry-configurable (~> 1.0)
-      dry-core (~> 1.0)
-      dry-inflector (~> 1.0, < 2)
-      temple (~> 0.10.0, >= 0.10.2)
-      tilt (~> 2.0, >= 2.0.6)
-      zeitwerk (~> 2.6)
     hanami-webconsole (2.1.0.beta1)
       better_errors (~> 2.9, < 2.10.0)
       binding_of_caller (~> 1.0)
@@ -225,7 +231,7 @@ DEPENDENCIES
   hanami-router (~> 2.1.0.beta)
   hanami-rspec
   hanami-validations (~> 2.1.0.beta)
-  hanami-view (~> 2.1.0.beta)
+  hanami-view!
   hanami-webconsole (~> 2.1.0.beta)
   puma
   rack-test

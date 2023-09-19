@@ -7,7 +7,7 @@ gem "hanami-cli",     github: "hanami/cli",     branch: "main"
 gem "hanami-router", "~> 2.1.0.beta"
 gem "hanami-controller", "~> 2.1.0.beta"
 gem "hanami-validations", "~> 2.1.0.beta"
-gem "hanami-view", "~> 2.1.0.beta"
+gem "hanami-view", github: "hanami/view", branch: "main"
 gem "hanami-assets",     github: "hanami/assets",     branch: "main"
 gem "hanami-webconsole", "~> 2.1.0.beta"
 
