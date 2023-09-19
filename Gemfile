@@ -25,7 +25,7 @@ group :cli, :development do
 end
 
 group :cli, :development, :test do
-  gem "hanami-rspec"
+  gem "hanami-rspec", github: "hanami/rspec", branch: "enhancement/generate-view-specs"
 end
 
 group :development do

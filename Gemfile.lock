@@ -7,7 +7,7 @@ GIT
 
 GIT
   remote: https://github.com/hanami/cli.git
-  revision: c67bdfff29aff990a7189ed266ffd22c4cf4a7f1
+  revision: a151b299da002a97ce6e04103c24cb7fb9f1cd47
   branch: main
   specs:
     hanami-cli (2.1.0.beta1)
@@ -42,6 +42,17 @@ GIT
   specs:
     hanami-reloader (2.1.0.beta1)
       hanami-cli (~> 2.0)
+      zeitwerk (~> 2.6)
+
+GIT
+  remote: https://github.com/hanami/rspec.git
+  revision: 556a142de0856e9e354e889f655e184a0a638261
+  branch: enhancement/generate-view-specs
+  specs:
+    hanami-rspec (2.1.0.beta1)
+      hanami-cli (~> 2.0)
+      rake (~> 13.0)
+      rspec (~> 3.12)
       zeitwerk (~> 2.6)
 
 GIT
@@ -152,11 +163,6 @@ GEM
       mustermann (~> 3.0)
       mustermann-contrib (~> 3.0)
       rack (~> 2.0)
-    hanami-rspec (2.0.1)
-      hanami-cli (~> 2.0)
-      rake (~> 13.0)
-      rspec (~> 3.12)
-      zeitwerk (~> 2.6)
     hanami-utils (2.1.0.beta1)
       concurrent-ruby (~> 1.0)
       dry-core (~> 1.0, < 2)
@@ -229,7 +235,7 @@ DEPENDENCIES
   hanami-controller (~> 2.1.0.beta)
   hanami-reloader!
   hanami-router (~> 2.1.0.beta)
-  hanami-rspec
+  hanami-rspec!
   hanami-validations (~> 2.1.0.beta)
   hanami-view!
   hanami-webconsole (~> 2.1.0.beta)
