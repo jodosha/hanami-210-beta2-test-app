@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "hanami",     github: "hanami/hanami",     branch: "feature/serve-static-assets"
+gem "hanami",     github: "hanami/hanami",     branch: "feature/rake-assets-command"
 gem "hanami-cli",     github: "hanami/cli",     branch: "main"
 gem "hanami-router", "~> 2.1.0.beta"
 gem "hanami-controller", "~> 2.1.0.beta"
@@ -25,7 +25,7 @@ group :cli, :development do
 end
 
 group :cli, :development, :test do
-  gem "hanami-rspec", github: "hanami/rspec", branch: "enhancement/generate-view-specs"
+  gem "hanami-rspec", github: "hanami/rspec", branch: "main"
 end
 
 group :development do

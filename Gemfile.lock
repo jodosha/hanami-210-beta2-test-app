@@ -1,13 +1,14 @@
 GIT
   remote: https://github.com/hanami/assets.git
-  revision: 9f3fd71061766d4c3465187d20bff9dac54f1e78
+  revision: 2f205cd00ca36be43439dedf13bc3d4e1539cf94
   branch: main
   specs:
     hanami-assets (2.1.0.alpha1)
+      zeitwerk (~> 2.6)
 
 GIT
   remote: https://github.com/hanami/cli.git
-  revision: a151b299da002a97ce6e04103c24cb7fb9f1cd47
+  revision: 96320a7ee80d982351970c24a67fee61a253086d
   branch: main
   specs:
     hanami-cli (2.1.0.beta1)
@@ -20,8 +21,8 @@ GIT
 
 GIT
   remote: https://github.com/hanami/hanami.git
-  revision: 75286633037767a7732e1f2f4587a8ca6dad09fd
-  branch: feature/serve-static-assets
+  revision: e387c4958a8e86dae3765011a70b03051a281ccf
+  branch: feature/rake-assets-command
   specs:
     hanami (2.1.0.beta1)
       bundler (>= 1.16, < 3)
@@ -46,8 +47,8 @@ GIT
 
 GIT
   remote: https://github.com/hanami/rspec.git
-  revision: 556a142de0856e9e354e889f655e184a0a638261
-  branch: enhancement/generate-view-specs
+  revision: 2ff4ff435140a44b32d28dc854ebf68a355b417f
+  branch: main
   specs:
     hanami-rspec (2.1.0.beta1)
       hanami-cli (~> 2.0)
@@ -137,7 +138,7 @@ GEM
       dry-schema (>= 1.12, < 2)
       zeitwerk (~> 2.6)
     erubi (1.12.0)
-    ffi (1.15.5)
+    ffi (1.16.2)
     formatador (1.1.0)
     guard (2.18.1)
       formatador (>= 0.2.4)
@@ -192,7 +193,7 @@ GEM
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    puma (6.3.1)
+    puma (6.4.0)
       nio4r (~> 2.0)
     rack (2.2.8)
     rack-test (2.1.0)
@@ -219,7 +220,7 @@ GEM
     temple (0.10.2)
     thor (1.2.2)
     tilt (2.3.0)
-    zeitwerk (2.6.11)
+    zeitwerk (2.6.12)
 
 PLATFORMS
   x86_64-darwin-21
