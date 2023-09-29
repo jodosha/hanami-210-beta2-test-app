@@ -21,8 +21,8 @@ GIT
 
 GIT
   remote: https://github.com/hanami/hanami.git
-  revision: e387c4958a8e86dae3765011a70b03051a281ccf
-  branch: feature/rake-assets-command
+  revision: 37991c60d71ba78803146df85b4572cef0d4e83e
+  branch: main
   specs:
     hanami (2.1.0.beta1)
       bundler (>= 1.16, < 3)
