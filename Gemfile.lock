@@ -1,17 +1,17 @@
 GIT
   remote: https://github.com/hanami/assets.git
-  revision: 2f205cd00ca36be43439dedf13bc3d4e1539cf94
+  revision: 1f863fc6662486e5c7b90a7395bf541c6e3d5141
   branch: main
   specs:
-    hanami-assets (2.1.0.alpha1)
+    hanami-assets (2.1.0.beta2)
       zeitwerk (~> 2.6)
 
 GIT
   remote: https://github.com/hanami/cli.git
-  revision: 96320a7ee80d982351970c24a67fee61a253086d
+  revision: 2d6e6bb3dad323f2b0400a470fcb449b7a54ad63
   branch: main
   specs:
-    hanami-cli (2.1.0.beta1)
+    hanami-cli (2.1.0.beta2)
       bundler (~> 2.1)
       dry-cli (~> 1.0, < 2)
       dry-files (~> 1.0, >= 1.0.1, < 2)
@@ -21,10 +21,10 @@ GIT
 
 GIT
   remote: https://github.com/hanami/hanami.git
-  revision: 37991c60d71ba78803146df85b4572cef0d4e83e
+  revision: 83d3567b74a8a0b152608b45837a2fb9d288d727
   branch: main
   specs:
-    hanami (2.1.0.beta1)
+    hanami (2.1.0.beta2)
       bundler (>= 1.16, < 3)
       dry-configurable (~> 1.0, < 2)
       dry-core (~> 1.0, < 2)
@@ -38,10 +38,10 @@ GIT
 
 GIT
   remote: https://github.com/hanami/reloader.git
-  revision: 13886c4c209bc8b693bbe732462036797dffa316
+  revision: ea0e6fd7479ab1ff33088a36f7ba0974146b805c
   branch: main
   specs:
-    hanami-reloader (2.1.0.beta1)
+    hanami-reloader (2.1.0.beta2)
       hanami-cli (~> 2.0)
       zeitwerk (~> 2.6)
 
@@ -58,10 +58,10 @@ GIT
 
 GIT
   remote: https://github.com/hanami/view.git
-  revision: 55321527d45694463c3b85b7e11892a8f442d147
+  revision: 15da1b1e68b6121a70b0e8da85156997221ae4f2
   branch: main
   specs:
-    hanami-view (2.1.0.beta1)
+    hanami-view (2.1.0.beta2)
       concurrent-ruby (~> 1.0)
       dry-configurable (~> 1.0)
       dry-core (~> 1.0)
@@ -69,6 +69,15 @@ GIT
       temple (~> 0.10.0, >= 0.10.2)
       tilt (~> 2.0, >= 2.0.6)
       zeitwerk (~> 2.6)
+
+GIT
+  remote: https://github.com/hanami/webconsole.git
+  revision: e71a93d77c19686db18643e166f5203201c34fe5
+  branch: main
+  specs:
+    hanami-webconsole (2.1.0.beta2)
+      better_errors (~> 2.9, < 2.10.0)
+      binding_of_caller (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -171,9 +180,6 @@ GEM
     hanami-validations (2.1.0.beta1)
       dry-validation (>= 1.10, < 2)
       zeitwerk (~> 2.6.0)
-    hanami-webconsole (2.1.0.beta1)
-      better_errors (~> 2.9, < 2.10.0)
-      binding_of_caller (~> 1.0)
     hansi (0.2.1)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -223,6 +229,7 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -239,7 +246,7 @@ DEPENDENCIES
   hanami-rspec!
   hanami-validations (~> 2.1.0.beta)
   hanami-view!
-  hanami-webconsole (~> 2.1.0.beta)
+  hanami-webconsole!
   puma
   rack-test
   rake
